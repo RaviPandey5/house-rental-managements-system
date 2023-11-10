@@ -1,0 +1,436 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+finalproject
+</name>
+</assembly>
+<members>
+<member name="T:finalproject.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.blur">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.blur_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.blur_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.blur_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.download">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.hill_bg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.hill_bg_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.hill_bg_3_blur">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.home">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.home__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.home__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.icons8_about_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.icons8_big_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.icons8_down_button_96">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.icons8_down_button_96__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.icons8_exit_96">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.icons8_home_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.icons8_houses_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.icons8_houses_64__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.icons8_password_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.icons8_password_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.icons8_user_100">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.icons8_user_1001">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.icons8_user_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.image">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.log_halg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.login">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.login_bg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.login_bg1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:finalproject.My.Resources.Resources.wp4734920">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:finalproject.collageDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:finalproject.collageDataSet.studentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:finalproject.collageDataSet.studentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:finalproject.collageDataSet.studentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:finalproject.collageDataSetTableAdapters.studentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:finalproject.collageDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:finalproject.collageDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(finalproject.collageDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:finalproject.collageDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(finalproject.collageDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:finalproject.collageDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(finalproject.collageDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:finalproject.collageDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:finalproject.collageDataSetTableAdapters.TableAdapterManager.UpdateAll(finalproject.collageDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:finalproject.collageDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:finalproject.collageDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:finalproject.collageDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:finalproject.collageDataSet1.studentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:finalproject.collageDataSet1.studentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:finalproject.collageDataSet1.studentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:finalproject.collageDataSet1TableAdapters.studentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:finalproject.collageDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:finalproject.collageDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(finalproject.collageDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:finalproject.collageDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(finalproject.collageDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:finalproject.collageDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(finalproject.collageDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:finalproject.collageDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:finalproject.collageDataSet1TableAdapters.TableAdapterManager.UpdateAll(finalproject.collageDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:finalproject.collageDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:finalproject.collageDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:finalproject.rentDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:finalproject.rentDataSet.rentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:finalproject.rentDataSet.rentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:finalproject.rentDataSet.rentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:finalproject.rentDataSetTableAdapters.rentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:finalproject.rentDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:finalproject.rentDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(finalproject.rentDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:finalproject.rentDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(finalproject.rentDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:finalproject.rentDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(finalproject.rentDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:finalproject.rentDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:finalproject.rentDataSetTableAdapters.TableAdapterManager.UpdateAll(finalproject.rentDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:finalproject.rentDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:finalproject.rentDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:finalproject.staff_dataDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:finalproject.staff_dataDataSet.staffDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:finalproject.staff_dataDataSet.staffRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:finalproject.staff_dataDataSet.staffRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:finalproject.staff_dataDataSetTableAdapters.staffTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:finalproject.staff_dataDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:finalproject.staff_dataDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(finalproject.staff_dataDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:finalproject.staff_dataDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(finalproject.staff_dataDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:finalproject.staff_dataDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(finalproject.staff_dataDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:finalproject.staff_dataDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:finalproject.staff_dataDataSetTableAdapters.TableAdapterManager.UpdateAll(finalproject.staff_dataDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:finalproject.staff_dataDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:finalproject.staff_dataDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

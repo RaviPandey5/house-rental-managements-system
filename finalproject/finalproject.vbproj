@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9B5D4D00-BDAE-457A-A45F-EECCAF08026D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>finalproject.My.MyApplication</StartupObject>
+    <RootNamespace>finalproject</RootNamespace>
+    <AssemblyName>finalproject</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>finalproject.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>finalproject.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\..\Downloads\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="collageDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>collageDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="collageDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>collageDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="common.Designer.vb">
+      <DependentUpon>common.vb</DependentUpon>
+    </Compile>
+    <Compile Include="common.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="commonview.Designer.vb">
+      <DependentUpon>commonview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="commonview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="connect.vb" />
+    <Compile Include="datatanent.Designer.vb">
+      <DependentUpon>datatanent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="datatanent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.vb">
+      <DependentUpon>main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainhouse.Designer.vb">
+      <DependentUpon>mainhouse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mainhouse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maintanent.Designer.vb">
+      <DependentUpon>maintanent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="maintanent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage.Designer.vb">
+      <DependentUpon>Manage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Manage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NAVIGATION FORMS\ABOUT.Designer.vb">
+      <DependentUpon>ABOUT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NAVIGATION FORMS\ABOUT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NAVIGATION FORMS\add info\house.Designer.vb">
+      <DependentUpon>house.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NAVIGATION FORMS\add info\house.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NAVIGATION FORMS\add info\staff.Designer.vb">
+      <DependentUpon>staff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NAVIGATION FORMS\add info\staff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NAVIGATION FORMS\add info\tanent.vb" />
+    <Compile Include="NAVIGATION FORMS\add info\tanent1.Designer.vb">
+      <DependentUpon>tanent1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NAVIGATION FORMS\add info\tanent1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NAVIGATION FORMS\HOME.Designer.vb">
+      <DependentUpon>HOME.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NAVIGATION FORMS\HOME.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NAVIGATION FORMS\USER.Designer.vb">
+      <DependentUpon>USER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NAVIGATION FORMS\USER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="navigation.Designer.vb">
+      <DependentUpon>navigation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="navigation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rentDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rentDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\datastaff.Designer.vb">
+      <DependentUpon>datastaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\datastaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staff_dataDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>staff_dataDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="viewhouse.Designer.vb">
+      <DependentUpon>viewhouse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="viewhouse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="common.resx">
+      <DependentUpon>common.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="commonview.resx">
+      <DependentUpon>commonview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datatanent.resx">
+      <DependentUpon>datatanent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainhouse.resx">
+      <DependentUpon>mainhouse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maintanent.resx">
+      <DependentUpon>maintanent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage.resx">
+      <DependentUpon>Manage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NAVIGATION FORMS\ABOUT.resx">
+      <DependentUpon>ABOUT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NAVIGATION FORMS\add info\house.resx">
+      <DependentUpon>house.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NAVIGATION FORMS\add info\staff.resx">
+      <DependentUpon>staff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NAVIGATION FORMS\add info\tanent1.resx">
+      <DependentUpon>tanent1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NAVIGATION FORMS\HOME.resx">
+      <DependentUpon>HOME.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NAVIGATION FORMS\USER.resx">
+      <DependentUpon>USER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="navigation.resx">
+      <DependentUpon>navigation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\datastaff.resx">
+      <DependentUpon>datastaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewhouse.resx">
+      <DependentUpon>viewhouse.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="collageDataSet.xsc">
+      <DependentUpon>collageDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="collageDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>collageDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="collageDataSet.xss">
+      <DependentUpon>collageDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="collageDataSet1.xsc">
+      <DependentUpon>collageDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="collageDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>collageDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="collageDataSet1.xss">
+      <DependentUpon>collageDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="rentDataSet.xsc">
+      <DependentUpon>rentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="rentDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>rentDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="rentDataSet.xss">
+      <DependentUpon>rentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="staff_dataDataSet.xsc">
+      <DependentUpon>staff_dataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="staff_dataDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>staff_dataDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="staff_dataDataSet.xss">
+      <DependentUpon>staff_dataDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hill bg 3 blur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hill bg 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-big-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-down-button-96 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-down-button-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-password-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-password-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log halg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-1001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hill bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login bg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-about-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-exit-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blur 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blur 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blur 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wp4734920.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-houses-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-houses-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="collage.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="rent.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="staff data.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>if exist "$(TargetPath).locked" del $(TargetPath).locked"
+</PreBuildEvent>
+  </PropertyGroup>
+</Project>
